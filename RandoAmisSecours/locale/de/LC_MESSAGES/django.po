@@ -326,39 +326,46 @@ msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
 msgstr ""
+"Geben Sie ihren Passwort zweimal so das wir prüfen konnen das Sie "
+"es richtig getippt haben."
 
 #: templates/RandoAmisSecours/account/password_reset_confirm.html:26
 msgid "New password:"
-msgstr ""
+msgstr "Neues Passwort:"
 
 #: templates/RandoAmisSecours/account/password_reset_confirm.html:35
 msgid "Confirm password:"
-msgstr ""
+msgstr "Passwort bestätigen"
 
 #: templates/RandoAmisSecours/account/password_reset_confirm.html:45
 msgid "Change my password"
-msgstr ""
+msgstr "Passwort ändern"
 
 #: templates/RandoAmisSecours/account/password_reset_confirm.html:53
 msgid "Password reset unsuccessful"
-msgstr ""
+msgstr "Password Rücksetzen nicht erfolgreich"
 
 #: templates/RandoAmisSecours/account/password_reset_confirm.html:58
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
+"Das Paswortzurücksetzenlink ist ungültig, möglich weil er schon "
+"verwendet war. Abfrangen Sie bitte wieder einen Passwort zurückestzen."
 
 #: templates/RandoAmisSecours/account/password_reset_done.html:4
 #: templates/RandoAmisSecours/account/password_reset_done.html:16
 msgid "Password reset successful"
-msgstr ""
+msgstr "Passwort zurücksetzen ist erfolgreich"
 
 #: templates/RandoAmisSecours/account/password_reset_done.html:21
 msgid ""
 "We've emailed you instructions for setting your password to the email "
 "address you submitted. You should be receiving it shortly."
 msgstr ""
+"Wir haben ein E-Mail an die bei ihnen ubermitletet adresse gesendet."
+"In diese E-Mail sind Einweisung um ihren Passwort zu stezen."
+"Sie solten es in Kürze bekommen."
 
 #: templates/RandoAmisSecours/account/password_reset_email.txt:2
 #, python-format
@@ -366,46 +373,50 @@ msgid ""
 "You're receiving this email because you requested a password reset for your "
 "user account at %(site_name)s."
 msgstr ""
+"Sie haben deises E-Mail bekommen weil Sie das zurücksetzen von den Passwort "
+"ihrer Benutzerkonto an %(site_name)s angefragte haben."
 
 #: templates/RandoAmisSecours/account/password_reset_email.txt:4
 msgid "Please go to the following page and choose a new password:"
 msgstr ""
+"Bitte besuchen Sie die folgende Webseite und wählen sie einen neues Passwort."
+
 
 #: templates/RandoAmisSecours/account/password_reset_email.txt:7
 msgid "Your username, in case you've forgotten:"
-msgstr ""
+msgstr "Ihren Benutzername falls Sie in vergessen hatten:"
 
 #: templates/RandoAmisSecours/account/password_reset_email.txt:9
 msgid "Thanks for using our site!"
-msgstr ""
+msgstr "Danke für unser WebSeite verwenden!"
 
 #: templates/RandoAmisSecours/account/password_reset_email.txt:12
 msgid "The R.A.S. team"
-msgstr "L'équipe R.A.S."
+msgstr "Das R.A.S Team"
 
 #: templates/RandoAmisSecours/account/profile.html:15
 msgid "My profile"
-msgstr "Mon profil"
+msgstr "Mein Profil"
 
 #: templates/RandoAmisSecours/account/profile.html:32
 #: templates/RandoAmisSecours/account/profile.html:35
 #: templates/RandoAmisSecours/friends/search.html:10
 msgid "Friends"
-msgstr "Amis"
+msgstr "Freunde"
 
 #: templates/RandoAmisSecours/account/profile.html:32
 msgid "search"
-msgstr "chercher"
+msgstr "suchen"
 
 #: templates/RandoAmisSecours/account/profile.html:36
 #: templates/RandoAmisSecours/account/profile.html:91
 msgid "Received"
-msgstr "Reçu"
+msgstr "Bekommen"
 
 #: templates/RandoAmisSecours/account/profile.html:37
 #: templates/RandoAmisSecours/account/profile.html:149
 msgid "Sent"
-msgstr "Envoyée"
+msgstr "Absendet"
 
 #: templates/RandoAmisSecours/account/profile.html:47
 #: templates/RandoAmisSecours/account/profile.html:90
@@ -422,14 +433,14 @@ msgstr "Envoyée"
 #: templates/RandoAmisSecours/outing/index.html:285
 #: templates/RandoAmisSecours/reporting/outings_late.html:23
 msgid "Name"
-msgstr "Nom"
+msgstr "Name"
 
 #: templates/RandoAmisSecours/account/profile.html:48
 #: templates/RandoAmisSecours/account/profile.html:194
 #: templates/RandoAmisSecours/account/update.html:55
 #: templates/RandoAmisSecours/outing/details.html:83
 msgid "Phone number"
-msgstr "Numéro de téléphone"
+msgstr "Telefon Nummer"
 
 #: templates/RandoAmisSecours/account/profile.html:57
 #: templates/RandoAmisSecours/account/profile.html:217
@@ -437,16 +448,16 @@ msgstr "Numéro de téléphone"
 #: templates/RandoAmisSecours/outing/index.html:129
 #: templates/RandoAmisSecours/outing/index.html:175
 msgid "delete"
-msgstr "supprimer"
+msgstr "löschen"
 
 #: templates/RandoAmisSecours/account/profile.html:63
 msgid "Remove friend from list"
-msgstr "Supprimer un amis de votre liste"
+msgstr "Ein Freund von die list entfernen"
 
 #: templates/RandoAmisSecours/account/profile.html:66
 #, python-format
 msgid "Are you sure you want to remove «%(name)s» from your friends?"
-msgstr "Etes-vous sur de vouloir supprimer «%(name)s» de votre liste d'amis ?"
+msgstr "Wollen Sie wirklich «%(name)s» von ihrer Freundlist entfernen?"
 
 #: templates/RandoAmisSecours/account/profile.html:69
 #: templates/RandoAmisSecours/account/profile.html:112
@@ -459,79 +470,79 @@ msgstr "Etes-vous sur de vouloir supprimer «%(name)s» de votre liste d'amis ?"
 #: templates/RandoAmisSecours/outing/index.html:141
 #: templates/RandoAmisSecours/outing/index.html:187
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "Abbrechen"
 
 #: templates/RandoAmisSecours/account/profile.html:70
 #: templates/RandoAmisSecours/outing/index.html:98
 #: templates/RandoAmisSecours/outing/index.html:142
 #: templates/RandoAmisSecours/outing/index.html:188
 msgid "Delete"
-msgstr "Supprime"
+msgstr "Loschen"
 
 #: templates/RandoAmisSecours/account/profile.html:81
 msgid "You don't have friends here for the moment."
-msgstr "Vous n'avez pas d'amis ici pour le moment."
+msgstr "Sie haben keinen Freund im Augenblick."
 
 #: templates/RandoAmisSecours/account/profile.html:92
 #: templates/RandoAmisSecours/account/profile.html:150
 msgid "Action"
-msgstr "Action"
+msgstr "Aktion"
 
 #: templates/RandoAmisSecours/account/profile.html:99
 msgid "Accept"
-msgstr "Accepter"
+msgstr "Zustimmen"
 
 #: templates/RandoAmisSecours/account/profile.html:100
 msgid "Refuse"
-msgstr "Refuser"
+msgstr "Ablehenen"
 
 #: templates/RandoAmisSecours/account/profile.html:106
 msgid "Accept friend request"
-msgstr "Accepter la demande"
+msgstr "Freund meldung annehmen"
 
 #: templates/RandoAmisSecours/account/profile.html:109
 #, python-format
 msgid "Are you sure you want to add «%(name)s» to your friends?"
-msgstr "Etes-vous sur de vouloir ajouter «%(name)s» à votre liste d'amis ?"
+msgstr "Wollen Sie wirklich «%(name)s» in ihrer Freundlist hinsetzen."
 
 #: templates/RandoAmisSecours/account/profile.html:113
 msgid "Add friend"
-msgstr "Ajouter comme amis"
+msgstr "Freund hinsetzen"
 
 #: templates/RandoAmisSecours/account/profile.html:123
 msgid "Refuse friend request"
-msgstr "Refuser l'ajout à votre liste d'amis"
+msgstr "Freundschaftsanfrage ablehnen"
 
 #: templates/RandoAmisSecours/account/profile.html:126
 #, python-format
 msgid "Are you sure you want refuse the friend request from «%(name)s»?"
-msgstr "Etes-vous sur de vouloir refuser la demande d'amis de : «%(name)s» ?"
+msgstr "Wollen Sie wirklich die Freundschaftsanfrage von «%(name)s» ablehnen?"
 
 #: templates/RandoAmisSecours/account/profile.html:130
 msgid "Refuse request"
-msgstr "Refuser la demande"
+msgstr "Anfrage ablehnen"
 
 #: templates/RandoAmisSecours/account/profile.html:140
 msgid "Not any request received"
-msgstr "Aucune demande reçue"
+msgstr "Keine Anfrage erhalten"
 
 #: templates/RandoAmisSecours/account/profile.html:163
 #: templates/RandoAmisSecours/account/profile.html:170
 msgid "Cancel friend request"
-msgstr "Annuler la demande"
+msgstr "Freundschaftsanfrage stornieren"
 
 #: templates/RandoAmisSecours/account/profile.html:166
 #, python-format
 msgid "Are you sure you want to cancel the friend request sent to «%(name)s»?"
-msgstr "Etes-vous sur d'annuler la demande d'amis envoyée à : «%(name)s» ?"
+msgstr "Wollen Sie wirklich die Freundschaftsanfrage zu «%(name)s» stornieren?"
 
 #: templates/RandoAmisSecours/account/profile.html:179
 msgid "Not any request sent"
-msgstr "Aucune demande envoyée"
+msgstr "Keine Anfrage gesendet"
 
 #: templates/RandoAmisSecours/account/profile.html:186
 msgid "Information"
-msgstr "Informations"
+msgstr "Informationen"
 
 #: templates/RandoAmisSecours/account/profile.html:186
 #: templates/RandoAmisSecours/account/profile.html:197
@@ -539,88 +550,89 @@ msgstr "Informations"
 #: templates/RandoAmisSecours/outing/index.html:85
 #: templates/RandoAmisSecours/outing/index.html:129
 msgid "update"
-msgstr "mettre à jour"
+msgstr "Aktualisieren"
 
 #: templates/RandoAmisSecours/account/profile.html:192
 #: templates/RandoAmisSecours/account/register.html:82 views/account.py:81
 msgid "email"
-msgstr ""
+msgstr "E-Mail"
 
 #: templates/RandoAmisSecours/account/profile.html:196
 #: templates/RandoAmisSecours/account/register.html:43
 #: templates/RandoAmisSecours/account/register.html:52 views/account.py:49
 #: views/account.py:115 views/account.py:116
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #: templates/RandoAmisSecours/account/profile.html:202
 #: templates/RandoAmisSecours/account/update.html:67
 msgid "Language"
-msgstr "Langue"
+msgstr "Sprache"
 
 #: templates/RandoAmisSecours/account/profile.html:206
 msgid "undefined"
-msgstr "non définie"
+msgstr "undefiniert"
 
 #: templates/RandoAmisSecours/account/profile.html:208
 #: templates/RandoAmisSecours/account/update.html:80
 msgid "Timezone"
-msgstr "Fuseau horaire"
+msgstr "Zeitzone"
 
 #: templates/RandoAmisSecours/account/profile.html:215
 #: templates/RandoAmisSecours/account/profile.html:217
 #: templates/RandoAmisSecours/account/profile.html:223
 #: templates/RandoAmisSecours/account/profile.html:230
 msgid "Deleting my account"
-msgstr "Supprimer mon compte"
+msgstr "Konto löschen"
 
 #: templates/RandoAmisSecours/account/profile.html:216
 msgid ""
 "If you want to remove your account, just click on the folowing button. Be "
 "careful as it will permanently remove all your outings and personal data."
 msgstr ""
-"Si vous souhaitez supprimer votre compte, cliquer sur le bouton ci-dessous. "
-"Faites attention car l'ensemble de vos sorties ainsi que vos données "
-"personnelles seront supprimées."
+"Falls Sie ihren Konto löschen wollen, drücken Sie auf den folgend Button. "
+"Beachten Sie das es alle ihrer Ausfluge und ihre persönliche Daten "
+"löschen wird."
+
 
 #: templates/RandoAmisSecours/account/profile.html:226
 msgid ""
 "Are you sure you want to delete your account? It will permanently delete all "
 "your outings along with your personal data."
 msgstr ""
-"Etes-vous certain de vouloir supprimer votre compte ? L'ensemble de vos "
-"sorties ainsi que vos données personnelles seront supprimées."
+"Wollen Sie wirklich ihren Konto löschen? Es wird alle ihrer Ausflüge und "
+"personliche Daten dauerhaft lôschen."
 
 #: templates/RandoAmisSecours/account/register.html:4
 #: templates/RandoAmisSecours/account/register.html:11
 #: templates/RandoAmisSecours/account/register.html:93
 msgid "Register"
-msgstr "S'inscrire"
+msgstr "Registrieren"
 
 #: templates/RandoAmisSecours/account/register.html:32
 msgid "Account information"
-msgstr "Informations sur le compte"
+msgstr "Konto Infromationnen"
 
 #: templates/RandoAmisSecours/account/register.html:34
 #: templates/RandoAmisSecours/account/update.html:106 views/account.py:47
 #: views/account.py:113
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: templates/RandoAmisSecours/account/register.html:62
 #: templates/RandoAmisSecours/account/update.html:35
 msgid "Personnal information"
-msgstr "Informations personnelles"
+msgstr "Persönliche Daten"
 
 #: templates/RandoAmisSecours/account/register.html:64
 #: templates/RandoAmisSecours/account/update.html:37
 msgid "First name"
-msgstr "Prénom"
+msgstr "Vorname"
 
 #: templates/RandoAmisSecours/account/register.html:73
 #: templates/RandoAmisSecours/account/update.html:46
 msgid "Last name"
-msgstr "Nom"
+msgstr "Nachname"
 
 #: templates/RandoAmisSecours/account/register_email.html:1
 #, python-format
@@ -636,30 +648,30 @@ msgid ""
 "-- \n"
 "The R.A.S. team"
 msgstr ""
-"Bonjour %(fullname)s,\n"
+"Hello %(fullname)s,\n"
 "\n"
-"Merci pour votre inscription à R.A.S.\n"
-"Afin d'activer votre compte, merci de cliquer sur le lien de confirmation : "
+"Danke fûr ihrer registrierung zu R.A.S.\n"
+"Um ihren Konto zu aktivieren, bitte drücken Sie auf den Bestätigunglink : "
 "%(URL)s.\n"
 "\n"
-"Si vous n'avez pas demandé à être inscrit à R.A.S., ignorez simplement ce "
-"message pour annuler votre inscription.\n"
+"Falls Sie keine Registrierung zu R.A.S. beantragt haben, löschen Sie einfach "
+"dieses E-Mail um ihrer Registierung zu stornieren.\n"
 "\n"
 "-- \n"
-"L'équipe R.A.S."
+"Das R.A.S. Team"
 
 #: templates/RandoAmisSecours/account/register_end.html:4
 #: templates/RandoAmisSecours/account/register_end.html:11
 msgid "Register end"
-msgstr "Fin de l'enregistrement"
+msgstr "Registrierung Ende"
 
 #: templates/RandoAmisSecours/account/register_end.html:16
 msgid "email confirmation"
-msgstr "Confirmation par email"
+msgstr "Bestätigung E-Mail"
 
 #: templates/RandoAmisSecours/account/register_end.html:21
 msgid "Check your mailbox for the confirmation mail."
-msgstr "Vérifier votre messagerie pour le mail de confirmation."
+msgstr "Prüfen Sie ihre Mailbox für das Bestätigung E-Mail."
 
 #: templates/RandoAmisSecours/account/register_end.html:22
 msgid ""
