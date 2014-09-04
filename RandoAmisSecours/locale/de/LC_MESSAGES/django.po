@@ -250,7 +250,7 @@ msgstr "Konto Registrieren"
 
 #: templates/RandoAmisSecours/account/login.html:60
 msgid "Forgotten your password?"
-msgstr "Passwort vergessen"
+msgstr "Passwort vergessen?"
 
 #: templates/RandoAmisSecours/account/login.html:61
 msgid "Request a new one:"
@@ -678,49 +678,48 @@ msgid ""
 "This mail will contains instructions to activate your account. Just click on "
 "the link to activate your account and log in R.A.S."
 msgstr ""
-"Ce mail contient des instructions pour activer votre compte. Cliquer sur le "
-"lien dans ce mail pour activer votre compte et vous connecter."
+"Deises E-Mail enthält Anweisung um iren Konto zu aktivieren. Klicken Sie auf "
+"den Link in dieses E-Mail um ihren Konto zu aktivieren und um ihnen einloggen auf R.A.S."
 
 #: templates/RandoAmisSecours/account/register_end.html:23
 msgid "If you haven't received the mail, check the spam folder."
-msgstr "Si vous n'avez pas reçu de mail, vérifiez le répertoire de spam."
+msgstr "Falls Sie keinen E-Mail enthalten haben, Prüfen Sie ihren Spam Ordner."
 
 #: templates/RandoAmisSecours/account/update.html:4
 #: templates/RandoAmisSecours/account/update.html:11
 #: templates/RandoAmisSecours/account/update.html:123
 msgid "Update"
-msgstr "Mettre à jour"
+msgstr "Aktualisieren"
 
 #: templates/RandoAmisSecours/account/update.html:16
 msgid "Update my account"
-msgstr "Mettre à jour le compte"
+msgstr "Konto aktualisieren"
 
 #: templates/RandoAmisSecours/account/update.html:65
 msgid "Localization"
-msgstr "Localisation"
+msgstr "Lokalisierung"
 
 #: templates/RandoAmisSecours/account/update.html:86
 msgid "Your browser is in the same timezone as <u id=\"current_timezone\"></u>"
 msgstr ""
-"Votre browser est dans le même fuseau horaire que <u id=\"current_timezone"
-"\"></u>"
+"Ihren Browser hat die selbe Zeitzone wie <u id=\"current_timezone\"></u>."
 
 #: templates/RandoAmisSecours/account/update.html:91
 msgid "Advanced settings"
-msgstr "Paramètres avancés"
+msgstr "Fortgeschritten Einstellungen"
 
 #: templates/RandoAmisSecours/account/update.html:92
 msgid ""
 "Some providers, allows to send SMS from R.A.S. to you phone for free. Select "
 "your provider in the following list (if available) to receive alerts by SMS."
 msgstr ""
-"Certains opérateurs de téléphonie mobile, permettent l'envoie de SMS "
-"gratuitement depuis R.A.S. Sélectionnez votre opérateur dans la liste ci-"
-"contre (s'il est présent) afin de recevoir les alertes de R.A.S. par SMS."
+"Einige Mobilfunkanbieter ermöglichen das Absenden von SMS von R.A.S. "
+"Kostenloss auf ihren Handy. Um Alarm per SMS zu Empfängen wehlen Sie ihren "
+"Anbieter in die folgende Liste (falls verfügbar)."
 
 #: templates/RandoAmisSecours/account/update.html:94
 msgid "Provider"
-msgstr "Opérateur"
+msgstr "Anbieter"
 
 #: templates/RandoAmisSecours/account/update.html:104
 msgid ""
@@ -729,14 +728,14 @@ msgid ""
 "index.php?page=options\">your option page</a>. Then enter the generated user "
 "key in the <i>token</i> field."
 msgstr ""
-"Pour obtenir les identifiants ci-dessous, vous devez tout d'abord activer "
-"l'option <i>Notifications par SMS</i> sur la page <a href=\"https://mobile."
-"free.fr/moncompte/index.php?page=options\">Gérer mes options</a>. Entrez "
-"alors votre <i>clé d'identification au service</i> dans le champ <i>clé</i>."
+"Um die folgenden Informationnen abbekommen, Sie sollen die <i>SMS Meldung</i> "
+"aktivieren an auf die Seite <a href=\"https://mobile.free.fr/moncompte/"
+"index.php?page=options\">Option Seite</a>. Dann geben Sie das generieten Token "
+"in den <i>Token</i> Feld ein."
 
 #: templates/RandoAmisSecours/account/update.html:112
 msgid "Token"
-msgstr "Clé"
+msgstr "Token"
 
 #: templates/RandoAmisSecours/alert/alert.html:1
 #, python-format
@@ -754,17 +753,18 @@ msgid ""
 "-- \n"
 "The R.A.S team"
 msgstr ""
-"Bonjour,\n"
+"Hallo,\n"
 "\n"
-"%(fullname)s est en retard sur l'horaire prévu pour la sortie «%(name)s», "
-"qui devait finir le %(ending)s.\n"
+"%(fullname)s  hat verspätung für den Ausflug «%(name)s», das um %(ending)s "
+"enden sollte.\n "
 "\n"
-"Pour plus d'information sur la sortie, visitez : %(URL)s.\n"
+"Um mehr Informationen zu bekommen, besuchen Sie: %(URL)s.\n"
 "\n"
-"Pour en savoir plus, essayez de contacter %(fullname)s directement.\n"
+"Si konnen auch probieren %(fullname) kontaktieren um Informationnen über "
+" seinen Zustand kriegen.\n "
 "\n"
 "-- \n"
-"L'équipe R.A.S."
+"Das R.A.S Team."
 
 #: templates/RandoAmisSecours/alert/alert.txt:1
 #, python-format
@@ -772,8 +772,9 @@ msgid ""
 "%(fullname)s is late from outing '%(name)s', (finishing %(ending)s ago). You "
 "should contact him/her."
 msgstr ""
-"%(fullname)s est en retard pour la sortie '%(name)s', (il y a %(ending)s). "
-"Vous devriez le contacter."
+"%(fullname) hat verspätung für das Ausflug '%(name)s' (das for %(ending) "
+"enden sollte. "
+"Sie sollten in Kontaktieren."
 
 #: templates/RandoAmisSecours/alert/alert_owner.html:1
 #, python-format
@@ -791,18 +792,18 @@ msgid ""
 "-- \n"
 "The R.A.S team"
 msgstr ""
-"Bonjour,\n"
+"Hallo,\n"
 "\n"
-"vous êtes en retard sur l'horaire prévu pour la sortie «%(name)s», qui "
-"devait finir le %(ending)s.\n"
+"Sie sind verspätet für das Ausflug «%(name)s» das for %(ending) enden sollte. "
 "\n"
-"Si vous êtes de retour, merci de le signaler en cliquant sur %(URL)s.\n"
 "\n"
-"Nous avons envoyé un mail aux %(friend_count)s amis listés sur R.A.S. à "
-"propos de la situation.\n"
+"Falls Sie heil Zurück sind bitte klicken auf %(URL)s.\n"
+"\n"
+"wir haben E-Mails an die %(friend_count)s Freunde das Sie auf R.A.S."
+" gelistet haben. Um sie über die ümstande.\n"
 "\n"
 "-- \n"
-"L'équipe R.A.S."
+"Das R.A.S Team."
 
 #: templates/RandoAmisSecours/alert/alert_owner.txt:1
 #, python-format
@@ -810,7 +811,8 @@ msgid ""
 "You are late from outing '%(name)s', (finishing %(ending)s ago). Your "
 "friends where alerted."
 msgstr ""
-"En retard pour la sortie '%(name)s', (il y a %(ending)s). Vos amis sont "
+"Sie sind verspätet für das Ausflug '%(name)s', (das vor %(ending)s "
+"enden sollte). Ihren Freunden wurden gewarnt."
 "alertés."
 
 #: templates/RandoAmisSecours/alert/late.html:1
@@ -825,22 +827,22 @@ msgid ""
 "-- \n"
 "The R.A.S team"
 msgstr ""
-"Bonjour,\n"
+"Hallo,\n"
 "\n"
-"vous êtes en retard sur l'horaire prévu pour la sortie %(URL)s.\n"
+"Siz sind für das Ausflug %(URL)s verspätet.\n"
 "\n"
-"Si vous êtes de retour, merci de le signaler en cliquant sur %(SAFE_URL)s.\n"
+"Falls sie zurück sind, bitte kliken Sie auf %(SAFE_URL)s.\n"
 "\n"
 "-- \n"
-"L'équipe R.A.S."
+"Das R.A.S. Team."
 
 #: templates/RandoAmisSecours/alert/late.txt:1
 #, python-format
 msgid ""
 "You are late from outing '%(name)s'. If back safe, please update on R.A.S."
 msgstr ""
-"En retard pour la sortie '%(name)s'. Si de retour, merci de mettre à jour "
-"sur R.A.S."
+"Sie sind für das Ausflug '%(name)s' verspätet. Falls Sie heil zurück sind, "
+"bitte aktualisieren Sie es auf R.A.S."
 
 #: templates/RandoAmisSecours/friends/request_accepted_email.html:1
 #, python-format
@@ -852,13 +854,12 @@ msgid ""
 "-- \n"
 "The R.A.S. team"
 msgstr ""
-"Bonjour %(to)s,\n"
+"Hallo %(to)s,\n"
 "\n"
-"%(from)s a accepté votre demande d'ajout à votre liste d'amis sur "
-"RandoAmisSecours.\n"
+"%(from)s hat ihren Freundschaftsanfrage auf RandoAmisSecours akzeptiert.\n"
 "\n"
 "-- \n"
-"L'équipe R.A.S."
+"Das R.A.S. Team."
 
 #: templates/RandoAmisSecours/friends/request_email.html:1
 #, python-format
@@ -874,30 +875,30 @@ msgid ""
 "-- \n"
 "The R.A.S. team"
 msgstr ""
-"Bonjour %(to)s,\n"
+"Hallo %(to)s,\n"
 "\n"
-"%(from)s voudrait vous ajouter à sa liste d'amis sur RandoAmisSecours.\n"
+"%(from)s hat ihnen einen Freundschaftsanfrage auf RandoAmisSecours geschickt.\n"
 "\n"
-"Vous pouvez :\n"
-" * accepter : %(accept)s\n"
-" * refuser : %(refuse)s\n"
+"Sie konnen :\n"
+" *  akzeptieren: %(accept)s\n"
+" *  ablehnen: %(refuse)s\n"
 "\n"
 "-- \n"
-"L'équipe R.A.S."
+"Das R.A.S. Team."
 
 #: templates/RandoAmisSecours/friends/search.html:4
 #: templates/RandoAmisSecours/friends/search.html:16
 msgid "Search friends"
-msgstr "Chercher des amis"
+msgstr "Freunde suchen"
 
 #: templates/RandoAmisSecours/friends/search.html:11
 #: templates/RandoAmisSecours/friends/search.html:36
 msgid "Search"
-msgstr "Chercher"
+msgstr "Suchen"
 
 #: templates/RandoAmisSecours/friends/search.html:32
 msgid "Search for friends using the field below."
-msgstr "Utilisez le champ ci-dessous pour rechercher des amis."
+msgstr "Verwenden Sie den folgenden Feld um Freunde zu suchen."
 
 #: templates/RandoAmisSecours/friends/search.html:42
 msgid "The query should be at least 3 characters long."
@@ -905,37 +906,37 @@ msgstr "La recherche doit faire au minimum 3 caractères."
 
 #: templates/RandoAmisSecours/friends/search.html:69
 msgid "No matching user"
-msgstr "Pas d'utilisateur correspondant"
+msgstr "Keine passende Nützer"
 
 #: templates/RandoAmisSecours/help/index.html:20
 #: templates/RandoAmisSecours/help/qa.html:16
 msgid "Questions and Answers"
-msgstr "Questions et réponses"
+msgstr "Haüfig gestellte Fragen"
 
 #: templates/RandoAmisSecours/help/index.html:21
 msgid ""
 "Find out more information about R.A.S. in the Q&A section. Most common "
 "questions along with their answers should be available their."
 msgstr ""
-"Plus d'informations sur R.A.S. dans la FAQ. Les questions les plus courantes "
-"devraient y être traitées."
+"Sie werden mehr information über R.A.S. in die Frangen und Antworten finden. "
+"Die Äufige Frangen sollte da ihren Antwort finden."
 
 #: templates/RandoAmisSecours/help/index.html:22
 msgid "Visit Q&A page"
-msgstr "Visiter la FAQ"
+msgstr "Besuchen Sie die Fragen und Antworte Seite."
 
 #: templates/RandoAmisSecours/help/index.html:25
 #: templates/RandoAmisSecours/help/index.html:27
 msgid "Tutorial"
-msgstr "Tutoriel"
+msgstr "Tutorium"
 
 #: templates/RandoAmisSecours/help/index.html:26
 msgid ""
 "The tutorial describes how to create, confirm and then close an outing. This "
 "tutorial will be available soon."
 msgstr ""
-"Ce tutoriel explique comment créer, confirmer et cloturer une sortie. Celui-"
-"ci sera bientôt disponible."
+"Dieses Tutorium beschreibt wie mann Ausflüge erzeugt, bestätigt und "
+"auch schließt. Deises Tutorium wird bald verfügbar sein."
 
 #: templates/RandoAmisSecours/help/qa.html:4
 #: templates/RandoAmisSecours/help/qa.html:11
@@ -947,8 +948,9 @@ msgid ""
 "This page lists the most common questions and concerns about the R.A.S. "
 "website. If your question is missing, feel free to contact the R.A.S. team."
 msgstr ""
-"Cette page liste les questions les plus courantes à propos de R.A.S. Si "
-"votre question ne s'y trouve pas, vous pouvez contacter l'équipe R.A.S."
+"Diese Seite listet die häufigsten Fragen und Bedenken über die R.A.S."
+"Webseite. Falls Sie da keine Antwort an ihre Frage finden Sie können "
+"Das R.A.S. Team Kontaktieren."
 
 #: templates/RandoAmisSecours/help/qa.html:24
 msgid "1/ Calling emergency services"
@@ -960,13 +962,13 @@ msgid ""
 "services directly. It's your friends' duty to call public services only if "
 "necessary."
 msgstr ""
-"Si vous n'êtes pas rentré à temps, l'équipe R.A.S. n'appelera pas les "
-"services de secours. C'est est de la responsabilité de vos amis d'appeler "
-"les secours, s'ils l'estiment nécessaire."
+"Falls Sie verSpätet sind, das R.A.S. team wird nicht der Notdienst anrufen. "
+"Das ist die Aufgabe ihre Freunden der Notdienst anzurufen falls es "
+" notwendig ist."
 
 #: templates/RandoAmisSecours/help/qa.html:26
 msgid "2/ Reliability"
-msgstr "2/ Fiabilité"
+msgstr "2/ Zuverlässichkeit"
 
 #: templates/RandoAmisSecours/help/qa.html:27
 msgid ""
@@ -974,13 +976,13 @@ msgid ""
 "effort is made to keep the server hosting R.A.S. up and running. However we "
 "cannot 100% guarantee this."
 msgstr ""
-"Nous nous efforçons de rendre le site web R.A.S. aussi sûr que possible. "
-"Nous essayons également de garder le serveur hébergeant R.A.S. fonctionnel. "
-"Il ne nous est cependant pas possible de le garantir à 100%."
+"Wie probieren die R.A.S. Webseite so zuverlässig wie möglich zu bekommen. "
+"Die selbe Anstrengung setzen wir um das server das R.A.S. dient hoch und "
+" laufen zu halten. Allerdings können wir dass nicht 100% ganrantieren. "
 
 #: templates/RandoAmisSecours/help/qa.html:28
 msgid "3/ Confidentiality"
-msgstr "3/ Confidentialité"
+msgstr "3/ Geheimhaltung"
 
 #: templates/RandoAmisSecours/help/qa.html:29
 msgid ""
@@ -988,9 +990,10 @@ msgid ""
 "This is the same for your personnal data (your phone number for instance). "
 "So be careful when accepting friends."
 msgstr ""
-"Les sorties que vous créer sont uniquement visible pour vous et vos amis. Il "
-"en est de même pour vos données personnelles (votre numéro de téléphone par "
-"exemple). Soyez donc attentif lorsque vous acceptez de nouveaux amis."
+"Die von ihnen erstelten Ausflügen sind nur von ihnen un ihren "
+"Freunden sichtbar. Auch so ist es für ihren persönlichen Daten (ihren "
+" Telefonnummer zum beispiel). Des wegen seien Sie vorsichtig wen sie "
+"Freund akzeptieren."
 
 #: templates/RandoAmisSecours/help/qa.html:30
 msgid "4/ Warranties"
@@ -1001,29 +1004,29 @@ msgid ""
 "We are trying to get R.A.S. as secure and reliable as possible. However the "
 "service is provided without any warranties."
 msgstr ""
-"Nous essayons de rendre R.A.S. aussi sécurisé et sûr que possible. Cependant "
-"ce service est disponible sans aucune garanties."
+"Wir probieren R.A.S. so sicher und zuverlässig zu halten. Dennoch die Leinstung "
+"ist ohne Garantie zu verfügung gestellt."
 
 #: templates/RandoAmisSecours/main/index.html:4
 msgid "Main Page"
-msgstr "Page principale"
+msgstr "Home Seite"
 
 #: templates/RandoAmisSecours/main/index.html:15
 msgid "Don't wait for an accident !"
-msgstr "N'attendez pas un accident !"
+msgstr "Warten Sie nicht nach den Umfall!"
 
 #: templates/RandoAmisSecours/main/index.html:16
 msgid "Let your friends some information about your destination."
-msgstr "Laissez à vos amis des précisions sur votre destination."
+msgstr "Geben Sie ihren Freunden einige Informationne über ihren Ziel."
 
 #: templates/RandoAmisSecours/main/index.html:18
 #: templates/RandoAmisSecours/outing/index.html:32
 msgid "My outings"
-msgstr "Mes sorties"
+msgstr "Meinen Ausflügen"
 
 #: templates/RandoAmisSecours/main/index.html:28
 msgid "Subscribe"
-msgstr "S'inscrire"
+msgstr "Anmelden"
 
 #: templates/RandoAmisSecours/main/index.html:29
 msgid ""
@@ -1031,91 +1034,91 @@ msgid ""
 "contact you in case of emergency. We will never use these information for "
 "something else."
 msgstr ""
-"Créez un compte sur R.A.S. Nous gardons seulement les informations "
-"nécessaire pour vous contacter en cas d'urgence. Nous n'utiliserons jamais "
-"ces informations à d'autres fins."
+"Registrieren Sie sich auf R.A.S. we behalten nur die Informationnen "
+"die ervorderlich sint um ihnen kontantieren falls Notwendig. Wir werden "
+"diesen Informationnen nie mals fur etwas anders verwenden."
 
 #: templates/RandoAmisSecours/main/index.html:30
 msgid "Register »"
-msgstr "Inscription »"
+msgstr "Registrierung »"
 
 #: templates/RandoAmisSecours/main/index.html:33
 msgid "Declare outings"
-msgstr "Déclarer une sortie"
+msgstr "Ein Ausflug feststellen"
 
 #: templates/RandoAmisSecours/main/index.html:34
 msgid ""
 "Declare every planned outings with beginning and ending. Your friends will "
 "be alerted if you are not back on time."
 msgstr ""
-"Déclarez les sorties que vous prévoyez en indiquant un début et une fin. Vos "
-"amis seront alors alertés en cas de retard."
+"Stellen Sie alle ihre geplante Ausflüge mit Anfang und Ende. Ihren Freunden "
+"werden alarmiert falls Sie verspätet sind."
 
 #: templates/RandoAmisSecours/main/index.html:35
 msgid "Create »"
-msgstr "Créer »"
+msgstr "kreiren»"
 
 #: templates/RandoAmisSecours/main/index.html:38
 msgid "Look for friends"
-msgstr "Rechercher des amis"
+msgstr "Nach Freunde Suchen"
 
 #: templates/RandoAmisSecours/main/index.html:39
 msgid ""
 "Link your profile with friends profiles. Only your friends will see your "
 "outings unless you are late."
 msgstr ""
-"Connectez votre profil avec celui de vos amis. Seuls vos amis verrons vos "
-"sorties tant que vous n'êtes pas en retard."
+"Verbinden Sie ihren Profil ihren Freunden Profile. Nur ihren Freunden werden "
+"ihren Ausflügen soweit Sie nicht verspätet sind."
 
 #: templates/RandoAmisSecours/main/index.html:40
 msgid "R.A.S. will email your friends if you are not back on time."
-msgstr "R.A.S enverra un email à vos amis si vous êtes en retard."
+msgstr "Falls Sie Verspätet seit wird R.A.S. ein E-Mail an ihren Freunden schicken."
 
 #: templates/RandoAmisSecours/main/index.html:41
 msgid "Search »"
-msgstr "Rechercher »"
+msgstr "Suchen"
 
 #: templates/RandoAmisSecours/outing/create.html:4
 msgid "Update,New outing"
-msgstr "Mettre à jour,Nouvelle sortie"
+msgstr "Aktualisieren, Neues Ausflüg"
 
 #: templates/RandoAmisSecours/outing/create.html:22
 #: templates/RandoAmisSecours/outing/create.html:128
 msgid "Update,Create"
-msgstr "Mettre à jour,Créer"
+msgstr "Aktualisieren, kreiren"
 
 #: templates/RandoAmisSecours/outing/create.html:26
 #, python-format
 msgid "Update «%(name)s»"
-msgstr "Mettre à jour «%(name)s»"
+msgstr "«%(name)s» aktualisieren"
 
 #: templates/RandoAmisSecours/outing/create.html:26
 msgid "New outing"
-msgstr "Nouvelle sortie"
+msgstr "Neues Ausflüg"
 
 #: templates/RandoAmisSecours/outing/create.html:34
 msgid "Global information"
-msgstr "Informations générales"
+msgstr "allgemeine Informationnen"
 
 #: templates/RandoAmisSecours/outing/create.html:45
 #: templates/RandoAmisSecours/outing/details.html:68 views/outing.py:45
 msgid "Description"
-msgstr "Description"
+msgstr "Beschreibung"
 
 #: templates/RandoAmisSecours/outing/create.html:54
 #: templates/RandoAmisSecours/outing/details_trace.html:38 views/outing.py:46
 msgid "Latitude"
-msgstr "Latitude"
+msgstr "Breitengrad"
 
 #: templates/RandoAmisSecours/outing/create.html:63
 #: templates/RandoAmisSecours/outing/details_trace.html:39 views/outing.py:47
 msgid "Longitude"
-msgstr "Longitude"
+msgstr "Längengrad"
 
 #: templates/RandoAmisSecours/outing/create.html:73
 #, python-format
 msgid "Timing (in %(TIME_ZONE)s)"
-msgstr "Timing (pour %(TIME_ZONE)s)"
+msgstr "Zeit (für %(TIME_ZONE)s)"
 
 #: templates/RandoAmisSecours/outing/create.html:75
 #: templates/RandoAmisSecours/outing/details.html:58
@@ -1124,7 +1127,7 @@ msgstr "Timing (pour %(TIME_ZONE)s)"
 #: templates/RandoAmisSecours/outing/index.html:224
 #: templates/RandoAmisSecours/outing/index.html:260
 msgid "Begin"
-msgstr "Début"
+msgstr "Anfang"
 
 #: templates/RandoAmisSecours/outing/create.html:87
 #: templates/RandoAmisSecours/outing/details.html:60
@@ -1133,67 +1136,67 @@ msgstr "Début"
 #: templates/RandoAmisSecours/outing/index.html:225
 #: templates/RandoAmisSecours/outing/index.html:261
 msgid "End"
-msgstr "Fin"
+msgstr "Ende"
 
 #: templates/RandoAmisSecours/outing/create.html:99
 #: templates/RandoAmisSecours/outing/create.html:116
 #: templates/RandoAmisSecours/reporting/outings_late.html:27
 msgid "Alert"
-msgstr "Alerte"
+msgstr "Alarm"
 
 #: templates/RandoAmisSecours/outing/create.html:110
 msgid ""
 "RandoAmisSecours will use the three fields above to decide upon when to send "
 "email:"
 msgstr ""
-"RandoAmisSecours décidera de l'envoie des mails suivant le contenu des trois "
-"champs ci-dessus :"
+"RandoAmisSecours wird die drei oben erwähnte Felde nutzen um zu entschieden "
+"wann E-Mails geschickt werden sollen."
 
 #: templates/RandoAmisSecours/outing/create.html:112
 #: templates/RandoAmisSecours/reporting/outings_late.html:25
 msgid "Beginning"
-msgstr "Début"
+msgstr "Anfang"
 
 #: templates/RandoAmisSecours/outing/create.html:113
 msgid "the beginning of the outing"
-msgstr "le début de la sortie"
+msgstr "Anfang des Ausflüg"
 
 #: templates/RandoAmisSecours/outing/create.html:114
 #: templates/RandoAmisSecours/reporting/outings_late.html:26
 msgid "Ending"
-msgstr "Fin"
+msgstr "Ende"
 
 #: templates/RandoAmisSecours/outing/create.html:115
 msgid "the planned ending"
-msgstr "horaire prévu de fin"
+msgstr "Vorgesehende Ende Zeit"
 
 #: templates/RandoAmisSecours/outing/create.html:117
 msgid "the time to alert friends"
-msgstr "horaire d'alerte"
+msgstr "Zeit am Freunde zu Alarmieren"
 
 #: templates/RandoAmisSecours/outing/create.html:119
 msgid ""
 "After the ending R.A.S. sends emails to the owner. After the alert, friends "
 "are also emailed until the outing is closed."
 msgstr ""
-"Dès que l'horaire de fin est passé, R.A.S. vous enverra un mail. Si "
-"l'horaire de l'alerte est atteint, les mails seront également envoyés à vos "
-"amis, et ce jusqu'à ce que la sortie soit cloturée."
+"Nach das Ende Zeit wird R.A.S. E-Mails zu den Besitzer schicken. Nach die "
+"Alarm, werden die Freunde auch E-Mails bekommen bis das Ausflüg geschlossen"
+"ist."
 
 #: templates/RandoAmisSecours/outing/create.html:207
 #: templates/RandoAmisSecours/outing/create.html:218
 #: templates/RandoAmisSecours/outing/create.html:229
 msgid "yyyy-mm-dd hh:ii:ss"
-msgstr "dd/mm/yyyy hh:ii:ss"
+msgstr "dd.mm.yyyy hh:ii:ss"
 
 #: templates/RandoAmisSecours/outing/details.html:4
 #, python-format
 msgid "Outing «%(name)s»"
-msgstr "Sortie «%(name)s»"
+msgstr "Ausflüg «%(name)s»"
 
 #: templates/RandoAmisSecours/outing/details.html:41
 msgid "Warning:"
-msgstr "Attention :"
+msgstr "Achtung:"
 
 #: templates/RandoAmisSecours/outing/details.html:41
 #, python-format
@@ -1201,182 +1204,182 @@ msgid ""
 "This outing is not validated. You should <a href=\"%(confirmed_url)s"
 "\">confirmed it!</a>"
 msgstr ""
-"Cette sortie n'est pas validée. Vous devriez <a href=\"%(confirmed_url)s"
-"\">la confirmer !</a>"
+"Dieses Ausflüg ist nicht bestätigt. Sie sollten  <a href=\"%(confirmed_url)s"
+"\">es bestätigen!</a>"
 
 #: templates/RandoAmisSecours/outing/details.html:62
 msgid "Alert at"
-msgstr "Alerter à"
+msgstr "Alarm an"
 
 #: templates/RandoAmisSecours/outing/details.html:78
 msgid "Late outing"
-msgstr "Sortie en retard"
+msgstr "Verspätete Ausflüg"
 
 #: templates/RandoAmisSecours/outing/details.html:79
 #, python-format
 msgid "%(full_name)s is really late, you can try to contact him:"
 msgstr ""
-"%(full_name)s est très en retard, vous pouvez essayer de le contacter :"
+"%(full_name)s ist viel verspätet, Sie konnen probieren im zu Kontaktieren:"
 
 #: templates/RandoAmisSecours/outing/details.html:89
 msgid "GPS trace"
-msgstr "Trace GPS"
+msgstr "GPS Spur"
 
 #: templates/RandoAmisSecours/outing/details.html:91
 #, python-format
 msgid ""
 "A GPS trace has been recorded, you can <a href=\"%(URL)s\">watch it</a>."
 msgstr ""
-"Une trace GPS à été enregistrée, vous pouvez <a href=\"%(URL)s\">la "
-"regarder</a>."
+"Eind GPS Spur wurde gespeichert, Sie können  <a href=\"%(URL)s\">es "
+"ansehen</a>."
 
 #: templates/RandoAmisSecours/outing/details_trace.html:4
 #, python-format
 msgid "Outing «%(name)s» trace"
-msgstr "Trace de la sortie «%(name)s»"
+msgstr "«%(name)s» Ausflüg Spur"
 
 #: templates/RandoAmisSecours/outing/details_trace.html:34
 msgid "Trace details"
-msgstr "Details de la trace"
+msgstr "Spur Details"
 
 #: templates/RandoAmisSecours/outing/details_trace.html:37
 msgid "Date"
-msgstr "Date"
+msgstr "Datum"
 
 #: templates/RandoAmisSecours/outing/details_trace.html:40
 msgid "Precision (m)"
-msgstr "Pécision (m)"
+msgstr "Genauigkeit (m)"
 
 #: templates/RandoAmisSecours/outing/index.html:32
 msgid "new"
-msgstr "nouveau"
+msgstr "neues"
 
 #: templates/RandoAmisSecours/outing/index.html:35
 #: templates/RandoAmisSecours/outing/index.html:212
 msgid "Current"
-msgstr "Actuelle"
+msgstr "Aktuell"
 
 #: templates/RandoAmisSecours/outing/index.html:36
 #: templates/RandoAmisSecours/outing/index.html:213
 msgid "Draft"
-msgstr "Brouillon"
+msgstr "Entwurf"
 
 #: templates/RandoAmisSecours/outing/index.html:37
 #: templates/RandoAmisSecours/outing/index.html:164
 #: templates/RandoAmisSecours/outing/index.html:214
 #: templates/RandoAmisSecours/outing/index.html:288
 msgid "Finished"
-msgstr "Terminée"
+msgstr "Beendet"
 
 #: templates/RandoAmisSecours/outing/index.html:66
 msgid "finish"
-msgstr "cloture"
+msgstr "Beenden"
 
 #: templates/RandoAmisSecours/outing/index.html:72
 msgid "Finishing outing"
-msgstr "Cloturer la sortie"
+msgstr "Ausflüg beenden"
 
 #: templates/RandoAmisSecours/outing/index.html:75
 #, python-format
 msgid "Confirm that you are back home safe from «%(name)s» ?"
-msgstr "Confirmer que vous êtes rentré en sureté de «%(name)s» ?"
+msgstr "bestätigen das Sie heil zurück gekommensind von «%(name)s» ?"
 
 #: templates/RandoAmisSecours/outing/index.html:79
 msgid "Finish"
-msgstr "Terminer"
+msgstr "Beenden"
 
 #: templates/RandoAmisSecours/outing/index.html:91
 #: templates/RandoAmisSecours/outing/index.html:135
 #: templates/RandoAmisSecours/outing/index.html:181
 msgid "Delete outing"
-msgstr "Supprimer la sortie"
+msgstr "Ausflug loschen"
 
 #: templates/RandoAmisSecours/outing/index.html:94
 #: templates/RandoAmisSecours/outing/index.html:138
 #: templates/RandoAmisSecours/outing/index.html:184
 #, python-format
 msgid "Are you sure you want to delete the outing: «%(name)s» ?"
-msgstr "Etes-vous sur de vouloir supprimer la sortie : «%(name)s» ?"
+msgstr "Wollen Sie wirklich das Ausflüg: «%(name)s» loschen ?"
 
 #: templates/RandoAmisSecours/outing/index.html:109
 #: templates/RandoAmisSecours/outing/index.html:250
 msgid "No current outings"
-msgstr "Pas de sortie confirmée"
+msgstr "Keine bestätigte Ausflüge"
 
 #: templates/RandoAmisSecours/outing/index.html:129
 msgid "confirm"
-msgstr "confirme"
+msgstr "bestätigen"
 
 #: templates/RandoAmisSecours/outing/index.html:153
 #: templates/RandoAmisSecours/outing/index.html:276
 msgid "No drafts"
-msgstr "Pas de brouillon"
+msgstr "Keinen Entwürfe"
 
 #: templates/RandoAmisSecours/outing/index.html:162
 #: templates/RandoAmisSecours/outing/index.html:286
 msgid "Began"
-msgstr "Début"
+msgstr "Anfang"
 
 #: templates/RandoAmisSecours/outing/index.html:163
 #: templates/RandoAmisSecours/outing/index.html:287
 msgid "End planned"
-msgstr "Fin planifiée"
+msgstr "Geplante Ende"
 
 #: templates/RandoAmisSecours/outing/index.html:199
 #: templates/RandoAmisSecours/outing/index.html:304
 msgid "No finished outings"
-msgstr "Pas de sortie terminée"
+msgstr "Keine beendete Ausflüge"
 
 #: templates/RandoAmisSecours/outing/index.html:209
 msgid "Friends Outings"
-msgstr "Sorties de vos amis"
+msgstr "Freunden Ausflüge"
 
 #: templates/RandoAmisSecours/reporting/index.html:20
 #: templates/RandoAmisSecours/reporting/users.html:11
 msgid "Users"
-msgstr "Utilisateurs"
+msgstr "Nutzern"
 
 #: templates/RandoAmisSecours/reporting/index.html:22
 #: templates/RandoAmisSecours/reporting/users.html:114
 #: templates/RandoAmisSecours/reporting/users.html:169
 msgid "Number of users"
-msgstr "Nombre d'utilisateurs"
+msgstr "Nummer auf Nutzern"
 
 #: templates/RandoAmisSecours/reporting/index.html:24
 msgid "Graphs"
-msgstr "Graphiques"
+msgstr "Graphiken"
 
 #: templates/RandoAmisSecours/reporting/index.html:25
 #: templates/RandoAmisSecours/reporting/users.html:21
 msgid "Subscription"
-msgstr "Inscription"
+msgstr "Registrierung"
 
 #: templates/RandoAmisSecours/reporting/index.html:27
 #: templates/RandoAmisSecours/reporting/users.html:25
 msgid "Last login"
-msgstr "Dernière connexion"
+msgstr "leztes Einloggen"
 
 #: templates/RandoAmisSecours/reporting/index.html:33
 msgid "Number of outings"
-msgstr "Nombre de sorties"
+msgstr "Nummer auf Ausflüge"
 
 #: templates/RandoAmisSecours/reporting/index.html:35
 #: templates/RandoAmisSecours/reporting/outings_late.html:11
 #: templates/RandoAmisSecours/reporting/outings_late.html:16
 msgid "Late outings"
-msgstr "Sorties en retard"
+msgstr "Verspätete Ausflüge"
 
 #: templates/RandoAmisSecours/reporting/index.html:36
 msgid "(details)"
-msgstr "(details)"
+msgstr "(Details)"
 
 #: templates/RandoAmisSecours/reporting/outings_late.html:24
 msgid "User"
-msgstr "Utilisateur"
+msgstr "Nutzer"
 
 #: templates/RandoAmisSecours/reporting/users.html:16
 msgid "User reporting"
-msgstr "Rapports sur les utilisateurs"
+msgstr "Berichte über die Nûtzern"
 
 #: templates/RandoAmisSecours/reporting/users.html:29
 msgid "Sessions"
@@ -1384,39 +1387,39 @@ msgstr "Sessions"
 
 #: templates/RandoAmisSecours/reporting/users.html:46
 msgid "Subscription by date"
-msgstr "Inscriptions par dâte"
+msgstr "Regitriereing per Datum"
 
 #: templates/RandoAmisSecours/reporting/users.html:59
 msgid "New users"
-msgstr "Nouveaux utilisateurs"
+msgstr "Neuen Nützern"
 
 #: templates/RandoAmisSecours/reporting/users.html:101
 msgid "Last login by date"
-msgstr "Dernière connexion par dâte"
+msgstr "Lezte Einloggen per Datum"
 
 #: templates/RandoAmisSecours/reporting/users.html:156
 msgid "Sessions by date"
-msgstr "Sessions par dâte"
+msgstr "Session per Datum"
 
 #: templatetags/timedelta.py:37
 #, python-format
 msgid "in %s"
-msgstr "dans %s"
+msgstr "in %s"
 
 #: views/account.py:181
 msgid "Subscription to R.A.S."
-msgstr "Inscription à R.A.S."
+msgstr "Registrierung an R.A.S."
 
 #: views/account.py:189
 msgid "Some information are missing or mistyped"
-msgstr "Certains éléments sont manquants ou malformatés"
+msgstr "Einige Element fehelen oder sind getippt"
 
 #: views/account.py:215
 msgid ""
 "You should update your timezone. Without it R.A.S. will not work as expected."
 msgstr ""
-"Vous devez mettre à jour votre fuseau horaire. Sans cela, R.A.S. ne pourra "
-"pas fonctionner correctement."
+"Sie sollten ihre Zeitzone Zktualisieren, Sonst wird R.A.S. nicht wie erwartet "
+"funktionieren."
 
 #: views/account.py:245
 msgid "Personnal information updated"
